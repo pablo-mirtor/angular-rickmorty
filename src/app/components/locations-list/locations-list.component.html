@@ -1,0 +1,4 @@
+<h1>Lista de localizaciones</h1>
+<div>
+    <a *ngFor="let location of locations" [routerLink]="['/location', location.name]">Ver detalles de {{location.name}}</a>
+</div>
